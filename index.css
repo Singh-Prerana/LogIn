@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(107, 188, 218);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;/*used to set the main axis */
+    justify-content: space-around;/*used to set arrangement of elements in main axis*/
+    align-items: center;
+    height: 10vh;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-list button{
+    background-color: rgb(107, 188, 218);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-size: 15px;
+
+}
+.nav-bar a{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+.nav-list a{
+    margin-right: 25px;
+    
+}
+.rest-of-page{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 85vh;
+    align-items: center;
+    /* border: 1px solid black; */
+    
+}
+.left,.right{
+    
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 500px;
+    margin-left: 50px;
+    
+}
+.left{
+    padding-left: 10%;
+    /* margin-right: 100px; */
+    margin-left: 200px;
+    text-align: left;
+    color: white;
+    width: 400px;
+}
+.left button{
+    background-color: rgb(110, 199, 15);
+    color: white;
+    width: 170px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 200px;
+
+}
+.right input{
+    width: 200px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    background-color: rgb(250, 249, 247);
+}
+.right select,.right button{
+    width: 200px;
+    margin-bottom: 10px;
+    height: 34px;
+    padding: 3px 5px;
+    border: none;
+    background-color: rgb(250, 249, 247);
+}
+.right button{
+    background-color: rgb(38, 38, 248);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
